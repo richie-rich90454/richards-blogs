@@ -20,6 +20,7 @@ const server=http.createServer((req, res)=>{
         ".wav": "audio/wav",
         ".ogg": "audio/ogg",
         ".flac": "audio/flac",
+        ".ttf": "font/ttf",
     };
     const contentType=mimeTypes[extname]||"application/octet-stream";
     fs.readFile(filePath, (err, content)=>{
