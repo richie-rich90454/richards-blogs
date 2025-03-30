@@ -41,7 +41,6 @@
                 display: inline;
             }
             nav{
-                border: 1px solid #000;
                 background-color: #28465C;
                 color: #FFF;
             }
@@ -60,12 +59,14 @@
                 text-transform: uppercase;
                 text-align: center;
                 color: #FFF;
-                background: linear-gradient(57deg, #28465C, #DE0000);
-                -webkit-text-fill-color: transparent;
-                -webkit-background-clip: text;
+                background: linear-gradient(30deg, #DE0000, #1C94E9);
+                padding: 1.2rem 2.2rem;
                 text-shadow: .223rem .223rem .8rem rgba(0, 0, 0, 0.3);
                 letter-spacing: .223rem;
                 padding: .8rem;
+            }
+            .floating{
+                display: inline-block;
                 animation: float 3s infinite ease-in-out;
             }
             @keyframes float{
@@ -82,7 +83,7 @@
         </style>
     </head>
     <body>
-        <h1>Richard's Blogs</h1>
+        <h1><span class="floating">Richard's Blogs</span></h1>
         <nav role="navigation" aria-label="Main Navigation">
             <ul class="nav-ul">
                 <li class="nav-li"><a href="index.html" class="nav-link">Home</a></li>
