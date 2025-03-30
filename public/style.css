@@ -85,3 +85,15 @@ h1{
     margin: 1rem auto;
     padding: 1rem;
 }
+button{
+    background-color: #28465C;
+    border: 1px solid #000;
+    border-radius: .45rem;
+    color: #FFF;
+    font-family: "Noto Sans SC";
+    font-size: 2rem;
+    cursor: pointer;
+}
+button:hover{
+    transform: scaleY(1.5);
+}
