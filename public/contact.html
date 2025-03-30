@@ -46,6 +46,12 @@
             nav{
                 background-color: #28465C;
                 color: #FFF;
+                position: sticky;
+                width: 100%;
+                z-index: 100;
+                top: 0;
+                padding: .8rem 0;
+                box-shadow: 0 .223rem .6rem rgba(0, 0, 0, .2);
             }
             .nav-link{
                 text-decoration: none;
@@ -85,7 +91,25 @@
             }
             #main{
                 background-color: #FFF;
+                width: 100%;
+                padding: 2rem;
+                box-shadow: 0 .223rem .8rem rgba(0, 0, 0m .1);
+                text-align: left;
+            }
+            #main h2{
                 text-align: center;
+                color: #28465C;
+            }
+            .contact-info p{
+                margin: 0.5rem 0;
+                font-size: 1rem;
+            }
+            #footer{
+                text-align: center;
+                background-color: #28465C;
+                color: #FFF;
+                padding: 1rem;
+                margin-top: 2rem;
             }
         </style>
     </head>
@@ -102,14 +126,14 @@
         </nav>
         <div id="main">
             <h2>Here is my contact information: </h2>
-            <div style="margin: auto;">
-                <p style="text-align: left;">QQ Mail: rjiang1@qq.com</p>
-                <p style="text-align: left;">Gmail: rjiang880@gmail.com</p>
+            <div class="contact-info">
+                <p style="text-align: left;">QQ Mail: <a href="mailto:rjiang1@qq.com">rjiang1@qq.com</a></p>
+                <p style="text-align: left;">Gmail: <a href="mailto:rjiang880@gmail.com">rjiang880@gmail.com</a></p>
                 <p style="text-align: left;">Phone number: Do not call me 😊</p>
             </div>
         </div>
         <div id="footer">
-
+            <p>&copy; 2025 Richard's Blogs | All Rights Reserved</p>
         </div>
         <script src="contact.html"></script>
     </body>
