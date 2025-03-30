@@ -20,19 +20,45 @@
             body{
                 font-family: "EB Garamond";
                 background-color: #ACACAC;
+                margin: 0;
+                padding: 0;
             }
             h1, h2, h3, h4, h5, h6{
                 font-family: "Noto Sans SC";
                 margin: auto;
                 text-align: center;
             }
+            .nav-ul{
+                list-style-type: none;
+            }
+            .nav-li{
+                display: inline-block;
+                font-size: 1.5rem;
+                border: 2px solid #000;
+                width: max-content;
+                border-radius: .19rem;
+                background-color: #FFF;
+                color: #003153;
+                font-weight: bold;
+                padding: 1rem;
+                margin: auto;
+                text-align: center;
+            }
+            nav{
+                border: 1px solid #000;
+                background-color: #003153;
+                color: #FFF;
+            }
         </style>
     </head>
     <body>
         <h1>Richard's Blogs</h1>
         <nav>
-            <ul>
-                <li></li>
+            <ul class="nav-ul">
+                <li class="nav-li">Home</li>
+                <li class="nav-li">Journeys</li>
+                <li class="nav-li">School</li>
+                <li class="nav-li">Interests</li>
             </ul>
         </nav>
         <div id="main">
