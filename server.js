@@ -2,10 +2,13 @@ const http=require("http");
 const fs=require("fs");
 const path=require("path");
 const port=1331;
+const publicDir=path.join(__dirname, "public");
 const server=http.createServer((req, res)=>{
-    let filePath="." + req.url;
-    if (filePath=="./"){
-        filePath="./index.html";
+    let filePath=path.join(publicDir, req.url=="/"?"index.html":req.url);
+    filePath=path.normalize(filePath);
+    if (!filePath.startsWith(publicDir)){
+        res.writeHead(403, {"Content-Type": "text/plain; charset=utf-8"});
+        return res.end("403 Forbidden");
     }
     const extname=path.extname(filePath).toLowerCase();
     const mimeTypes ={
