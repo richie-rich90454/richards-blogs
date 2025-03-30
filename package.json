@@ -1,0 +1,19 @@
+{
+  "name": "richards-blogs",
+  "version": "1.0.0",
+  "description": "My personal blog\r JavaScript Libraries Used:\r     1. jQuery\r     2. Three.js\r Fonts Used:\r     1. Noto Sans SC\r     2. EB Garamond",
+  "main": "jquery-3.7.1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
