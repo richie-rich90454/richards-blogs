@@ -55,6 +55,30 @@
             .nav-link:hover{
                 color: #DE0000;
             }
+            h1{
+                font-size: 3rem;
+                text-transform: uppercase;
+                text-align: center;
+                color: #FFF;
+                background: linear-gradient(57deg, #28465C, #DE0000);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                text-shadow: .223rem .223rem .8rem rgba(0, 0, 0, 0.3);
+                letter-spacing: .223rem;
+                padding: .8rem;
+                animation: float 3s infinite ease-in-out;
+            }
+            @keyframes float{
+                0%{
+                    transform: translateY(0);
+                }
+                50%{
+                    transform: translateY(-.4rem);
+                }
+                100%{
+                    transform: translateY(0);
+                }
+            }
         </style>
     </head>
     <body>
