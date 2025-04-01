@@ -95,5 +95,5 @@ button{
     cursor: pointer;
 }
 button:hover{
-    transform: scaleY(1.5);
+    transform: scaleY(1.2);
 }

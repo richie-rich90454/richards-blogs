@@ -2,7 +2,7 @@ require("dotenv").config({path: ".env.local"});
 const http=require("http");
 const fs=require("fs");
 const path=require("path");
-const port=1331;
+const port=80;
 const publicDir=path.join(__dirname, "public");
 const server=http.createServer((req, res)=>{
     let filePath=path.join(publicDir, req.url=="/"?"index.html":req.url);
