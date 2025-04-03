@@ -10,6 +10,10 @@
     font-family: "EB Italic Garamond";
     src: url("../EBGaramond-Italic-VariableFont_wght.ttf");
 }
+@font-face {
+    font-family: "CMU Sans";
+    src: url("../cmu.sans-serif-medium.ttf");
+}
 body{
     font-family: "EB Garamond";
     background-color: #E4E4E4;
@@ -107,8 +111,19 @@ button:hover{
     background-color: #F8F8F8;
     padding: 1.2rem;
     border-radius: .8rem;
-    margin: 1.4rem 0;
+    margin: 1.4rem auto;
+    text-align: center;
 }
 .time-update{
     transition: all .3s ease;
+}
+#time{
+    font-family: "Noto Sans SC";
+    margin-top: 1rem;
+}
+.time-part{
+    font-size: 1.2rem;
+    border: .223rem solid #000;
+    margin: 1rem;
+    padding: 1rem;
 }
