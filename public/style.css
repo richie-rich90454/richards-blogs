@@ -100,3 +100,15 @@ button:hover{
 #who-i-am{
     display: none;
 }
+.main-section{
+    transition: all .3s ease;
+}
+#current-time{
+    background-color: #F8F8F8;
+    padding: 1.2rem;
+    border-radius: .8rem;
+    margin: 1.4rem 0;
+}
+.time-update{
+    transition: all .3s ease;
+}
