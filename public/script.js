@@ -2,7 +2,7 @@ $(document).ready(function(){
     $("#brief").click(function(){
         $("#who-i-am").slideToggle(400, function(){
             $(this).is(":visible")?
-                $("#brief").text("Hide"):
+                $("#brief").text("Do you want to know me?"):
                 $("#brief").text("Do you want to know me?");
         });
     });

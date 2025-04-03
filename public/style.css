@@ -119,11 +119,16 @@ button:hover{
 }
 #time{
     font-family: "Noto Sans SC";
-    margin-top: 1rem;
+    background-color: #FFF;
+    min-height: 10vh;
+    width: 40%;
+    margin: 1rem auto;
+    font-size: 2.5vw;
+    text-align: center;
+    border-radius: .67rem;
+    border: .01rem solid #000;
 }
 .time-part{
-    font-size: 1.2rem;
-    border: .223rem solid #000;
-    margin: 1rem;
-    padding: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
 }
