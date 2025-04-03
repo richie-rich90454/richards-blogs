@@ -97,6 +97,6 @@ button{
 button:hover{
     transform: scaleY(1.2);
 }
-.main-section{
+#who-i-am{
     display: none;
 }
