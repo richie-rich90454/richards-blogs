@@ -136,12 +136,14 @@ button:hover{
     margin: auto;
     text-align: center;
     background-color: #FFF;
-    border: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
     padding: 1rem;
-    max-width: max-content;
-    min-width: 30rem;
-    border-radius: .50rem;
+    word-wrap: break-word;
 }
 #jokes-container{
     font-size: 1.3rem;
+}
+h2{
+    font-size: 2rem;
 }
