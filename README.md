@@ -6,3 +6,4 @@ JavaScript Libraries Used:
 Fonts Used:
     1. Noto Sans SC
     2. EB Garamond
+    3. CMU Sans
