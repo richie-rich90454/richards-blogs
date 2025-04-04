@@ -38,7 +38,7 @@ $(document).ready(function(){
     updateLocalTime();
     setInterval(updateLocalTime, 1000);
     let jokes=[];
-    $.get("../memes_and_jokes.txt", function(data){
+    $.get("/memes_and_jokes.txt", function(data){
         jokes=data.split("\n").filter(joke=>joke.trim()!=="");
         showRandomJoke();
     }).fail(function(){
