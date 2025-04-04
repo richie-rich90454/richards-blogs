@@ -136,3 +136,5 @@ dist
 .pnp.*
 #memes and jokes text file
 public/memes_and_jokes.txt
+#poems and narratives
+public/poems.txt
