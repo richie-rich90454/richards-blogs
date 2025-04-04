@@ -1,18 +1,18 @@
 @font-face{
     font-family: "Noto Sans SC";
-    src: url("../NotoSansSC-VariableFont_wght.ttf");
+    src: url("NotoSansSC-VariableFont_wght.ttf");
 }
 @font-face{
     font-family: "EB Garamond";
-    src: url("../EBGaramond-VariableFont_wght.ttf");
+    src: url("EBGaramond-VariableFont_wght.ttf");
 }
 @font-face{
     font-family: "EB Italic Garamond";
-    src: url("../EBGaramond-Italic-VariableFont_wght.ttf");
+    src: url("EBGaramond-Italic-VariableFont_wght.ttf");
 }
 @font-face {
     font-family: "CMU Sans";
-    src: url("../cmu.sans-serif-medium.ttf");
+    src: url("cmu.sans-serif-medium.ttf");
 }
 body{
     font-family: "EB Garamond";
@@ -94,7 +94,7 @@ button{
     border: 1px solid #000;
     border-radius: .45rem;
     color: #FFF;
-    font-family: "Noto Sans SC";
+    font-family: "CMU Sans";
     font-size: 1rem;
     cursor: pointer;
 }
