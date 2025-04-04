@@ -37,4 +37,23 @@ $(document).ready(function(){
     }
     updateLocalTime();
     setInterval(updateLocalTime, 1000);
+    let jokes=[];
+    $.get("../memes_and_jokes.txt", function(data){
+        jokes=data.split("\n").filter(joke=>joke.trim()!=="");
+        showRandomJoke();
+    }).fail(function(){
+        $("#jokes-container").html("<p>Server busy. Please try again later.</p>")
+    });
+    function showRandomJoke(){
+        if (jokes.length>0){
+            let randomIndex=Math.floor(Math.random()*jokes.length);
+            $("#jokes-container").html(`<p>${jokes[randomIndex]}</p>`)
+        }
+    }
+    $("#show-another-joke").click(function(){
+        $("#jokes-container").fadeOut(400, function(){
+            showRandomJoke();
+            $(this).fadeIn(400);
+        });
+    });
 });
