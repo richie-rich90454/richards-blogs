@@ -19,10 +19,10 @@ body{
     background-color: #E4E4E4;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: "Noto Sans SC";
-    margin: auto;
 }
 .nav-ul{
     list-style-type: none;
@@ -34,18 +34,17 @@ h1, h2, h3, h4, h5, h6{
     gap: 1rem;
 }
 .nav-li{
-    padding: .8rem;
+    padding: .2rem;
 }
 nav{
     background-color: #28465C;
     color: #FFF;
     padding: 1rem;
-    transition: color .1s ease-in-out;
 }
 .nav-link{
     text-decoration: none;
     color: #FFF;
-    font-size: clamp(1.5rem, 2vw, 2rem);
+    font-size: clamp(1.2rem, 1.8vw, 1.6rem);
     padding: 1rem;
     transition: color .3s ease-in-out;
 }
@@ -61,6 +60,7 @@ h1{
     text-shadow: .223rem .223rem .8rem rgba(0, 0, 0, 0.3);
     letter-spacing: .15rem;
     padding: .8rem;
+    margin: 0;
 }
 .floating{
     display: inline-block;
@@ -97,7 +97,7 @@ button{
     border-radius: .45rem;
     color: #FFF;
     font-family: "CMU Sans";
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     cursor: pointer;
     font-weight: bold;
     padding: .6rem 1.2rem;
@@ -111,6 +111,10 @@ button:hover{
 #who-i-am{
     display: none;
     text-align: left;
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.2rem;
+    line-height: 1.8;
 }
 .main-section{
     transition: all .3s ease;
@@ -140,20 +144,21 @@ button:hover{
     width: 80%;
     max-width: 600px;
     margin: 1rem auto;
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-align: center;
     border-radius: .67rem;
     border: .01rem solid #000;
 }
 .time-part{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 #jokes-container{
     font-size: 1.3rem;
 }
 h2{
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
 }
 #contact-info, #interests, #journeys{
     border-bottom: 2px solid #000;
