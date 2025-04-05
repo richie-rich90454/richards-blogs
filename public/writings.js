@@ -1,6 +1,6 @@
 $(document).ready(function (){
     function loadTextFile(filePath, containerId, buttonId){
-        let container=$("#" + containerId);
+        let container=$("#"+containerId);
         $.get(filePath, function (data){
             let lines=data.split("\n").filter(line=>line.trim()!=="");
             let formattedContent="";
