@@ -9,7 +9,7 @@ $(document).ready(function (){
                     formattedContent+=`<h2>${line.slice(1).trim()}</h2>`;
                 }
                 else if (line.trim()=="\\"){
-                    formattedContent+="<br><br>";
+                    formattedContent+="<br>";
                 }
                 else{
                     formattedContent+=`<p>${line.trim()}</p>`;
